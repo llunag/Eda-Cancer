@@ -15,7 +15,8 @@ import pickle
 # Configuración de la página
 
 st.set_page_config(page_title="EDA Cancer",
-                   page_icon="📊")
+                   page_icon="📊",
+                   layout="wide")
 
 # Datos
 
