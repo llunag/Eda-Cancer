@@ -15,8 +15,7 @@ import pickle
 # Configuración de la página
 
 st.set_page_config(page_title="EDA Cancer",
-                   page_icon="📊",
-                   layout="wide")
+                   page_icon="📊")
 
 # Datos
 
@@ -45,5 +44,6 @@ st.markdown("""
         según el diagnóstico.
     </div>
     """, unsafe_allow_html=True)
+
 
 
